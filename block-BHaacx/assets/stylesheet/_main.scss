@@ -1,0 +1,161 @@
+.grid-div {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+.item {
+  border: 1px solid gray;
+}
+.item-padding {
+  padding: 1rem;
+}
+.flex {
+  display: flex;
+}
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+.all-center {
+  //   justify-content: center;
+  //   align-content: center;
+  text-align: center;
+}
+.item1 {
+  grid-column: span 2;
+}
+.item2 {
+  grid-column: span 2;
+  background-color: $pri;
+  padding: 7rem 1rem;
+  > * {
+    margin-bottom: 1rem;
+  }
+}
+.item3 {
+  grid-column: span 2;
+  > * {
+    margin-bottom: 1.5rem;
+  }
+}
+.item5 {
+  background-color: $sec;
+  color: white;
+  > * {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+  progress {
+    height: 0.5rem;
+    // background-color: black;
+  }
+}
+.item6,
+.item7,
+.item8,
+.item9 {
+  > * {
+    margin-bottom: 2rem;
+  }
+}
+.item6 {
+  background-color: $sec;
+  color: white;
+  p {
+    color: white;
+  }
+}
+.item7 {
+  background-color: $ter;
+  color: white;
+  p {
+    color: white;
+  }
+}
+.item8 {
+  background-color: black;
+  color: white;
+  p {
+    color: white;
+  }
+}
+.item9 {
+  background-color: white;
+}
+.item10 {
+  grid-column: span 2;
+}
+.item11 {
+  grid-column: span 2;
+  background-color: $ter;
+  color: white;
+  p {
+    color: white;
+  }
+}
+.item11,
+.item12 {
+  h4 span {
+    font-size: 1rem;
+    color: rgb(87, 84, 84);
+  }
+  > * {
+    margin-bottom: 2rem;
+  }
+}
+.item12 {
+  grid-column: span 2;
+  background-color: $sec;
+  color: white;
+  p {
+    color: white;
+  }
+}
+.item13 {
+  grid-column: span 2;
+}
+.item14 {
+  grid-column: span 2;
+  background-color: $ter;
+  color: white;
+  > * {
+    margin-bottom: 1rem;
+  }
+  input,
+  textarea {
+    background-color: $ter;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid $sec;
+    padding: 0.5rem;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: white;
+  }
+}
+.item15 {
+}
+.item16 {
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+    font-size: 1rem;
+  }
+}
+.item17 {
+  grid-column: span 4;
+  background-color: $ter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  iframe {
+    box-shadow: 1px 1px 5px black;
+  }
+}
