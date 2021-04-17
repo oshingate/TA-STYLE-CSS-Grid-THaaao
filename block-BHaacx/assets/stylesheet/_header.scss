@@ -1,0 +1,33 @@
+header {
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  strong {
+    margin-left: 2rem;
+  }
+  ul {
+    margin-right: 2rem;
+  }
+  li {
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    a:hover {
+      color: $sec;
+    }
+  }
+}
+.ham-div {
+  i {
+    display: none;
+  }
+}
+
+.footer {
+  padding: 5rem 0;
+  text-align: center;
+  small {
+    font-size: 0.9rem;
+    color: gray;
+  }
+}
